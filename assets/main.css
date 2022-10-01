@@ -1,0 +1,7 @@
+* {
+	border-style: solid;
+}
+header, main, body {
+	border-width: 12px;
+	border-color: red;
+}
