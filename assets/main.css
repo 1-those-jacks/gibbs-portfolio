@@ -5,3 +5,13 @@ header, main, body {
 	border-width: 12px;
 	border-color: red;
 }
+img {
+	width: 120px;
+	height: fit-content;
+}
+
+img:hover {
+	width: 240px;
+	height: fit-content;
+}
+
