@@ -11,34 +11,50 @@
 <body>
 	<header>
 		<h1 id="top">Jack Gibbs</h1>
+		<div class="flex">
 		<img src="./assets/images/profile-pic.jpg" alt="Jack Gibbs Profile">
 		<nav>
-			<ul>
+			<ul class="flex" class="remove-bullets">
 				<li><a href="#about-me">About Me</a></li>
 				<li><a href="#my-work">My Work</a></li>
 				<li><a href="#resume">Resume</a></li>
 				<li><a href="#contact-me">Contact Me</a></li>				
 			</ul>
 		</nav>
+		</div>
 	</header>
 	<main>
 		<section>
 			<h2 id="about-me">About Me</h2>
+			<div class="flex">
 				<p>Hello, my name is Jack, and I am an eager new participant to the world of web development. My training has been in HTML and CSS (Javascript coming soon). Below are the projects that I have worked on so far, but there is more to come. This is not my introduction to  the workforce. As noted by my resume below, I have over 7 years working in a professional environment. When I am not working or learning the trending advancements of tech, I enjoy hiking/skiing/biking the outdoors, playing both video and table top games, and spending time with friends and family (of course). Please reach out using the contact information listed below. I look forward to working with you!</p>
-		</section>
+				<img src="./assets/images/about-me.jpg" alt="About Me">
+			</div>
+			<div class="flex-img">
+				<img src="./assets/images/hiking-generic.jpg" alt="Hiking">
+				<img src="./assets/images/tabletop-gaming-generic.jpg" alt="Tabletop Gaming">
+				<img src="./assets/images/skiing-generic.jpg" alt="Skiing">
+				<img src="./assets/images/video-gaming-generic.jpg" alt="Video Gaming">
+				<img src="./assets/images/mountain-biking-generic.jpg" alt="Mountainbiking">
+			</div>
+			</section>
 		<section>
 			<h2 id="my-work">My Work</h2>
 				<div>Prework Study Guide</div>
-				<a href="https://1-those-jacks.github.io/prework-study-guide/"><img src="./assets/images/prework-study-guide-example.PNG" alt="Prework Study Guide"></a>
-					<p>This was the assignment prior to the beginning of the course where I generated a basic web application to store notes regarding HTML, CSS, and Git.</p>
+					<div class="flex">
+						<a href="https://1-those-jacks.github.io/prework-study-guide/"><img src="./assets/images/prework-study-guide-example.PNG" alt="Prework Study Guide"></a>
+						<p>This was the assignment prior to the beginning of the course where I generated a basic web application to store notes regarding HTML, CSS, and Git.</p>
+					</div>
 				<div>Code Refactor</div>
-				<a href="https://1-those-jacks.github.io/01-challenge-html-css-git-code-refactor-repo/"><img src="./assets/images/code-refactor-example.PNG" alt="Code Refactor"></a>
-					<p>This was the assignment from week 1 requiring that I update the code to semantic HTML as well as reducing the amount of CSS in the CSS file.</p>
+					<div class="flex">
+						<a href="https://1-those-jacks.github.io/01-challenge-html-css-git-code-refactor-repo/"><img src="./assets/images/code-refactor-example.PNG" alt="Code Refactor"></a>
+						<p>This was the assignment from week 1 requiring that I update the code to semantic HTML as well as reducing the amount of CSS in the CSS file.</p>
+					</div>				
 		</section>
 		<section>
 			<h2 id="resume">Resume</h2>
 				<h3>Summary of Qualifications</h3>
-					<ul>
+					<ul class="remove-bullets">
 						<li>Core Competencies includuing Organization, Planning/Scheduling, Adapting New Software, Contracts, and Process Management.</li>
 						<li>Advanced Microsoft Office Skills including Word, Excel, Outlook, Access, PowerPoint, SharePoint.</li>
 						<li>Introductory Programmer with skills in HTML and CSS.</li>
@@ -46,18 +62,18 @@
 					</ul>
 				<h3>Education & Certifications</h3>
 					<h4>Bachelor of Arts</h4>
-						<ul>
+						<ul class="remove-bullets">
 							<li>Albion College located in Albion, MI</li>
 							<li>Majored in Philosophy and Communications</li>
 							<li>Graduated May 2014, Cum Laude</li>
 						</ul>	
 					<h4>Six Sigma Certifications</h4>
-						<ul>
+						<ul class="remove-bullets">
 							<li>White Belt: Received 2021</li>
 							<li>Yellow Belt: Received 2021</li>
 						</ul>
 					<h4>Northwestern University Coding Bootcamp</h4>
-						<ul>
+						<ul class="remove-bullets">
 							<li>Web Development Course</li>
 							<li>Pending: Expected March 2023</li>
 						</ul>
@@ -86,9 +102,9 @@
 						</ul>
 		</section>
 	</main>
-	<footer>
-		<h2 id="contact-me">Contact Me</h2>
-		<ul>
+	<footer class="flex">
+		<h5 id="contact-me">Contact Me</h5>
+		<ul class="flex">
 			<li>Email: jackdgibbs1991@gmail.com</li>
 			<li>Phone: 630-337-5701</li>
 			<li>GitHub: 1-those-jacks</li>

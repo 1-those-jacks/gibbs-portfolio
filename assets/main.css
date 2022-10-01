@@ -1,10 +1,10 @@
 * {
 	border-style: solid;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	margin: 1em;
+	background-color: tan;
 }
-header, main, body {
-	border-width: 12px;
-	border-color: red;
-}
+
 img {
 	width: 120px;
 	height: fit-content;
@@ -15,3 +15,51 @@ img:hover {
 	height: fit-content;
 }
 
+header div {
+	width: inherit;
+}
+
+nav {
+	width: 100%;
+}
+nav ul {
+	list-style: none;
+	width: auto;
+	font-size: 150%;
+	padding: 4%;
+}
+nav ul li {
+	margin-right: auto;
+}
+
+h5 {
+	font-size: x-large;
+}
+
+footer {
+	width: inherit;
+}
+
+footer ul {
+	list-style: none;
+	width: 87%;
+}
+
+footer ul li {
+	margin-right: auto;
+	align-self: center;
+}
+.flex {
+	display: flex;
+}
+
+.flex-img {
+	display: flex;
+	align-items: center;
+	width: fit-content;
+}
+
+.remove-bullets {
+	list-style: none;
+	padding: 0;
+}
