@@ -1,22 +1,64 @@
 * {
-	border-style: solid;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: bold;
+}
+
+body {
+	background: radial-gradient(ellipse at center, #1F5AD8 0%, #055B9B 50%, #027A7A 100%);
 	margin: 1em;
-	background-color: tan;
+}
+
+footer {
+	background: radial-gradient(ellipse at center, #1F5AD8 0%, #055B9B 50%, #027A7A 100%);
+	border-style: solid;
+	margin-top: 1em;
 }
 
 img {
 	width: 120px;
 	height: 120px;
+	border-radius: 30%;
+	border-style: dashed;
+
 }
 
-img:hover {
+.hover :hover {
+	width: 180px;
+	height: 180px;
+}
+
+header {
+	background: radial-gradient(ellipse at center, #1F5AD8 0%, #055B9B 50%, #027A7A 100%);
+}
+
+header img{
 	width: 240px;
-	height: fit-content;
+	height: 240px;
 }
 
 header div {
 	width: inherit;
+	background: radial-gradient(ellipse at center, #2ED848 0%, #239B35 50%, #187A23 100%);
+	border-style: solid;
+	box-shadow: 5px 5px 5px black;
+}
+
+header h1 {
+
+}
+
+main {
+	background: radial-gradient(ellipse at center, #2ED848 0%, #239B35 50%, #187A23 100%);
+	border-style: solid;
+	margin-top: 1em;
+	box-shadow: 5px 5px 5px black;
+}
+main section {
+	background-color: #239B35 50%;
+}
+
+main div {
+	background: radial-gradient(ellipse at center, #2ED848 0%, #239B35 50%, #187A23 100%);
 }
 
 nav {
@@ -38,6 +80,7 @@ h5 {
 
 footer {
 	width: inherit;
+	box-shadow: 5px 5px 5px black;
 }
 
 footer ul {
