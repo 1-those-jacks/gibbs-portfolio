@@ -11,20 +11,31 @@ body {
 footer {
 	background: radial-gradient(ellipse at center, #1F5AD8 0%, #055B9B 50%, #027A7A 100%);
 	border-style: solid;
+	box-shadow: 5px 5px 5px black;
 	margin-top: 1em;
+	width: inherit;
+}
+
+footer ul {
+	list-style: none;
+	width: 87%;
+}
+
+footer ul li {
+	align-self: center;
+	margin-right: auto;
 }
 
 img {
-	width: 120px;
-	height: 120px;
 	border-radius: 30%;
 	border-style: dashed;
+	box-shadow: 5px 5px 5px black;
+	height: 120px;
+	width: 120px;
+	}
 
-}
-
-.hover :hover {
-	width: 180px;
-	height: 180px;
+h5 {
+	font-size: x-large;
 }
 
 header {
@@ -32,15 +43,15 @@ header {
 }
 
 header img{
-	width: 240px;
 	height: 240px;
+	width: 240px;
 }
 
 header div {
-	width: inherit;
 	background: radial-gradient(ellipse at center, #2ED848 0%, #239B35 50%, #187A23 100%);
 	border-style: solid;
 	box-shadow: 5px 5px 5px black;
+	width: inherit;
 }
 
 header h1 {
@@ -50,11 +61,8 @@ header h1 {
 main {
 	background: radial-gradient(ellipse at center, #2ED848 0%, #239B35 50%, #187A23 100%);
 	border-style: solid;
-	margin-top: 1em;
 	box-shadow: 5px 5px 5px black;
-}
-main section {
-	background-color: #239B35 50%;
+	margin-top: 1em;
 }
 
 main div {
@@ -64,46 +72,58 @@ main div {
 nav {
 	width: 100%;
 }
+
 nav ul {
-	list-style: none;
-	width: auto;
 	font-size: 150%;
+	list-style: none;
 	padding: 4%;
+	width: auto;
 }
+
 nav ul li {
 	margin-right: auto;
 }
 
-h5 {
-	font-size: x-large;
-}
-
-footer {
-	width: inherit;
-	box-shadow: 5px 5px 5px black;
-}
-
-footer ul {
-	list-style: none;
-	width: 87%;
-}
-
-footer ul li {
-	margin-right: auto;
-	align-self: center;
-}
 .flex {
 	display: flex;
 }
 
 .flex-img {
-	display: flex;
 	align-items: center;
-	width: fit-content;
+	display: flex;
 	margin: auto;
+	width: fit-content;
+}
+
+.hover :hover {
+	height: 180px;
+	width: 180px;
 }
 
 .remove-bullets {
 	list-style: none;
 	padding: 0;
+}
+
+@media screen and (max-width: 992px) {
+	ul {
+		flex-wrap: wrap;
+	}
+	img {
+		flex-wrap: wrap;
+	}
+}
+
+/* Large smartphones - navbar changes color */
+@media screen and (max-width: 768px) {
+	ul {
+		flex-wrap: wrap;
+	}
+}
+
+/* Small smartphones - image placeholders change color */
+@media screen and (max-width: 576px) {
+	ul {
+		flex-wrap: wrap;
+	}
 }
