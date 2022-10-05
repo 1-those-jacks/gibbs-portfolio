@@ -47,15 +47,11 @@ header img{
 	width: 240px;
 }
 
-header div {
+header section {
 	background: radial-gradient(ellipse at center, #2ED848 0%, #239B35 50%, #187A23 100%);
 	border-style: solid;
 	box-shadow: 5px 5px 5px black;
 	width: inherit;
-}
-
-header h1 {
-
 }
 
 main {
@@ -65,7 +61,7 @@ main {
 	margin-top: 1em;
 }
 
-main div {
+main section {
 	background: radial-gradient(ellipse at center, #2ED848 0%, #239B35 50%, #187A23 100%);
 }
 
