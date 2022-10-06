@@ -2,12 +2,12 @@
 	font-family: 'Courier New', Courier, monospace;
 	font-weight: bold;
 }
-
+/* add variables to fluctuate background features */
 body {
 	background: radial-gradient(ellipse at center, #1F5AD8 0%, #055B9B 50%, #027A7A 100%);
 	margin: 1em;
 }
-
+/* consider changing to consistent green colors used in header and main */
 footer {
 	background: radial-gradient(ellipse at center, #1F5AD8 0%, #055B9B 50%, #027A7A 100%);
 	border-style: solid;
@@ -33,36 +33,49 @@ img {
 	height: 120px;
 	width: 120px;
 	}
+h2 {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	padding: 1em;
+	text-shadow: 14px 16px 10px;
+}
+
+h3 {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	padding: 1em;
+	border-bottom: solid, #055B9B;
+}
+
+h4 {
+	font-family: Tahoma;
+	padding: 1em;
+}
 
 h5 {
 	font-size: x-large;
+	padding: 1em;
 }
 
 header {
 	background: radial-gradient(ellipse at center, #1F5AD8 0%, #055B9B 50%, #027A7A 100%);
 }
-
+/* Makes profile image static */
 header img{
 	height: 240px;
 	width: 240px;
 }
-
+/* Colors the whole header */
 header section {
 	background: radial-gradient(ellipse at center, #2ED848 0%, #239B35 50%, #187A23 100%);
 	border-style: solid;
 	box-shadow: 5px 5px 5px black;
 	width: inherit;
 }
-
+/* Colors the whole main section...keeps it one graphic */
 main {
 	background: radial-gradient(ellipse at center, #2ED848 0%, #239B35 50%, #187A23 100%);
 	border-style: solid;
 	box-shadow: 5px 5px 5px black;
 	margin-top: 1em;
-}
-
-main section {
-	background: radial-gradient(ellipse at center, #2ED848 0%, #239B35 50%, #187A23 100%);
 }
 
 nav {
@@ -80,25 +93,36 @@ nav ul li {
 	margin-right: auto;
 }
 
+p{
+	padding: 1em;
+}
+section img {
+	margin: 1%;
+}
+
 .flex {
 	display: flex;
 }
 
-.flex-img {
-	align-items: center;
+.flex-article {
 	display: flex;
-	margin: auto;
-	width: fit-content;
+	padding: 1em
 }
-
+/* manages section that is line of pictures of stock images */
+.flex-img {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+/* hover action for my coding links. Update later to have more features.*/
 .hover :hover {
 	height: 180px;
 	width: 180px;
 }
-
+/* cleans up lists */
 .remove-bullets {
 	list-style: none;
-	padding: 0;
+	padding: 12px;
 }
 
 @media screen and (max-width: 992px) {
@@ -110,16 +134,33 @@ nav ul li {
 	}
 }
 
-/* Large smartphones - navbar changes color */
+/* Large smartphones*/
 @media screen and (max-width: 768px) {
+	main section article {
+		flex-direction: column;
+	}
 	ul {
 		flex-wrap: wrap;
 	}
 }
 
-/* Small smartphones - image placeholders change color */
+/* Small smartphones*/
 @media screen and (max-width: 576px) {
+	/* Add classes to html elements and remove redundant below */
+	footer {
+		align-items: center;
+		flex-direction: column;
+	}
+	header {
+		align-items: center;
+		flex-direction: column;
+	}
+	section {
+		align-items: center;
+		flex-direction: column;
+	}
 	ul {
+		flex-direction: column;
 		flex-wrap: wrap;
 	}
 }
