@@ -6,7 +6,7 @@ The following application is a portfolio summarizing my work in both web develop
 
 ## Screenshot
 
-![Header](/assets/images/about-me.jpg)
+![Header](/assets/images/header-aboutme.PNG)
 ![Body1](/assets/images/my-work.PNG)
 ![Body2](/assets/images/education.PNG)
 ![Body3](/assets/images/work-experience.PNG)
@@ -14,5 +14,5 @@ The following application is a portfolio summarizing my work in both web develop
 
 ## Link
 
-
-
+GitHub Repository: https://github.com/1-those-jacks/gibbs-portfolio
+GitHub Page: https://1-those-jacks.github.io/gibbs-portfolio/
